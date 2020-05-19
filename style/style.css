@@ -16,9 +16,6 @@ ul {
 }
 
 #container {
-	border-color: red;
-	border-style: solid;
-	border-width: 1px;
 	margin: 0 auto;
 	min-width: 700px;
 	max-width: 1180px;
@@ -66,7 +63,8 @@ ul {
 #lista-menu {
 	position: relative;
 	top: 75px;
-	left: 100px;
+	left: 90px;
+	font-size: 0.85em;
 }
 
 #lista-menu a {
@@ -107,4 +105,35 @@ ul {
 	position: absolute;
 	top: 10px;
 	right: 30px;
+}
+
+#area-depoimento {
+	background-image: url(../imagens/depoimento.png);
+	width: 226px;
+	height: 164px;
+	z-index: 4;
+	position: absolute;
+	top: 60px;
+	left: 200px;
+}
+
+#conteudo-principal {
+	width: 50%;
+	background-image: url(../imagens/bg-area-principal.png);
+	padding: 20px;
+	float: left;t
+}
+
+#conteudo-principal h2 {
+	color: #b18425;
+	font-size: 1.3em;
+	margin-bottom: 30px;
+}
+
+#conteudo-principal p {
+	margin-bottom: 30px;
+}
+
+#conteudo-lateral {
+	float: right;
 }
